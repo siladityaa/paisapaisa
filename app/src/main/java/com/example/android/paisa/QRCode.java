@@ -24,7 +24,7 @@ public class QRCode extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_qrcode);
 
         buttonScan = (Button) findViewById(R.id.buttonScan);
         result = (TextView) findViewById(R.id.tv);
